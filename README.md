@@ -7,8 +7,6 @@ empName
 empActive
 emp_dpID – foreign key to tblDepartments 
 
----
-
 tblDepartments:
 dpID
 dpName
