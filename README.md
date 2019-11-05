@@ -1,7 +1,7 @@
 ## To run this project you need:
 ### Create Database 
 #### The structure of the database should be as follows: 
-tblEmployees: 
+tblEmployees: <br/>
 empID (identity field) <br/>
 empName <br/>
 empActive <br/>
