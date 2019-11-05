@@ -2,14 +2,14 @@
 ### Create Database 
 #### The structure of the database should be as follows: 
 tblEmployees: 
-empID (identity field)__
-empName__
-empActive__
-emp_dpID – foreign key to tblDepartments__
+empID (identity field) <br/>
+empName <br/>
+empActive <br/>
+emp_dpID – foreign key to tblDepartments <br/>
 
-tblDepartments: __
-dpID__
-dpName__
+tblDepartments:<br/>
+dpID <br/>
+dpName <br/>
 
 ---
 ### Start your sql server
