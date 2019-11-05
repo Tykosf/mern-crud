@@ -1,0 +1,39 @@
+table {
+	border-collapse: collapse; 
+	margin: auto;
+	&, th, td {
+		border: 1px solid black;
+		padding-right: 5px;
+		padding-left: 5px;
+		padding-bottom: 10px;
+		text-align: left;
+	}
+	th {
+		background-color: #36304a;
+		color: whitesmoke;
+		line-height: 1.4;
+		padding: 20px 25px 20px 25px;
+	}
+
+	td {
+		color: #808080;
+		line-height: 1.4;
+		padding: 20px 25px 20px 25px;
+
+		span {
+			text-decoration: underline;
+			color: purple;
+		}
+
+		&:hover {
+			background-color: #6c7ae0;
+			color: whitesmoke;
+			a {
+				color: #fff;
+			}
+			span {
+				color: #fff;
+			}
+		}
+	}
+}

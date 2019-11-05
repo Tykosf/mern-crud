@@ -1,0 +1,27 @@
+div.pagination {
+	margin-top: 15px;
+	
+	.selectedPage {
+		font-weight: bold;
+		color: #fff;
+		background-color: #36304a;
+	}
+
+	span {
+		display: inline-block;
+		border: 1px solid grey;
+		padding: 4px 7px 4px 7px;
+		margin: 0 3px 0 3px;
+		width: 16px;
+
+		&:hover {
+			background-color: lighten(grey,30);
+		}
+	}
+
+	span:nth-child(-n+2) {
+		img {
+			transform: rotate(180deg);
+		}
+	}
+}
