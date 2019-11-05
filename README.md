@@ -17,4 +17,4 @@ dpName
 ### Start server
 #### Go to back-end folder. To start server run `npm start`
 ----
-###Main goal of this project to practice in building scalable projects.
+### Main goal of this project to practice in building scalable projects.
