@@ -1,6 +1,6 @@
 ## To run this project you need:
 ### Create Database 
-####The structure of the database should be as follows: 
+#### The structure of the database should be as follows: 
 tblEmployees: 
 empID (identity field) 
 empName
